@@ -7,3 +7,7 @@ During an internship at a company, my supervisor and I decided that we wanted to
 (e.g. Dynamic_ext)
 
 Main files are: AFM_script_extended (multiple conditions), AFM_Script (1 trial), ProofOfConcept
+
+
+
+> Schallig, W., van den Noort, J.C., Piening, M. et al. The Amsterdam Foot Model: a clinically informed multi-segment foot model developed to minimize measurement errors in foot kinematics. J Foot Ankle Res 15, 46 (2022). https://doi.org/10.1186/s13047-022-00543-6
