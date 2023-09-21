@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_80" class="java.beans.XMLDecoder">
+ <object class="org.opensim.utils.ApplicationState" id="ApplicationState0">
+  <void property="stateObjects">
+   <void method="put">
+    <string>MotionsDB</string>
+    <object class="org.opensim.view.motions.MotionsDBDescriptor" id="MotionsDBDescriptor0">
+     <void property="modelFileNames">
+      <void method="add">
+       <string></string>
+      </void>
+     </void>
+     <void property="motionFileNames">
+      <void method="add">
+       <string>G:\SyncDataCardiff\osimData\Patient2\RefWalk\data\WalkForward_tr\GrfFile_30.mot</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>ViewDB</string>
+    <object class="org.opensim.view.pub.ViewDBDescriptor" id="ViewDBDescriptor0">
+     <void property="cameraAttributes">
+      <void method="add">
+       <array class="double" length="13">
+        <void index="0">
+         <double>-0.7834191392249306</double>
+        </void>
+        <void index="1">
+         <double>-0.07409944064796137</double>
+        </void>
+        <void index="2">
+         <double>4.967323967200656</double>
+        </void>
+        <void index="3">
+         <double>-0.6797916565715267</double>
+        </void>
+        <void index="4">
+         <double>-1.9457727689046163</double>
+        </void>
+        <void index="5">
+         <double>-1.0296588112089808</double>
+        </void>
+        <void index="6">
+         <double>-0.10791381465603964</double>
+        </void>
+        <void index="7">
+         <double>0.9484815371025621</double>
+        </void>
+        <void index="8">
+         <double>-0.29788820450286874</double>
+        </void>
+        <void index="9">
+         <double>-0.016492975554058407</double>
+        </void>
+        <void index="10">
+         <double>0.29788876133725306</double>
+        </void>
+        <void index="11">
+         <double>0.954458101556234</double>
+        </void>
+        <void index="12">
+         <double>41.48122265859914</double>
+        </void>
+       </array>
+      </void>
+     </void>
+     <void property="offsetsList">
+      <void method="add">
+       <array class="double" length="3"/>
+      </void>
+      <void method="add">
+       <array class="double" length="3"/>
+      </void>
+      <void method="add">
+       <array class="double" length="3"/>
+      </void>
+      <void method="add">
+       <array class="double" length="3"/>
+      </void>
+      <void method="add">
+       <array class="double" length="3"/>
+      </void>
+     </void>
+     <void property="viewNames">
+      <void method="add">
+       <string>View0</string>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>OpenSimDB</string>
+    <object class="org.opensim.view.pub.OpenSimDBDescriptor" id="OpenSimDBDescriptor0">
+     <void property="fileNames">
+      <void method="add">
+       <string>G:\SyncDataCardiff\osimData\Patient2\model\scaled_model_marker_tr.osim</string>
+      </void>
+      <void method="add">
+       <string>G:/SyncDataCardiff/osimData/Patient2/model/scaled_model_marker_rra_Contact_trMarker.osim</string>
+      </void>
+     </void>
+     <void property="modelIds">
+      <void method="add">
+       <int>0</int>
+      </void>
+      <void method="add">
+       <int>2</int>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>PluginsDB</string>
+    <object class="org.opensim.view.pub.PluginsDB"/>
+   </void>
+   <void method="put">
+    <string>CoordinateViewer</string>
+    <object class="org.opensim.coordinateviewer.CoordinateViewerDescriptor" id="CoordinateViewerDescriptor0">
+     <void property="poses">
+      <void method="add">
+       <object class="org.opensim.view.ModelPose" id="ModelPose0">
+        <void property="coordinateNames">
+         <void method="add">
+          <string>treadmill_tx</string>
+         </void>
+         <void method="add">
+          <string>pelvis_tilt</string>
+         </void>
+         <void method="add">
+          <string>pelvis_list</string>
+         </void>
+         <void method="add">
+          <string>pelvis_rotation</string>
+         </void>
+         <void method="add">
+          <string>pelvis_tx</string>
+         </void>
+         <void method="add">
+          <string>pelvis_ty</string>
+         </void>
+         <void method="add">
+          <string>pelvis_tz</string>
+         </void>
+         <void method="add">
+          <string>hip_flexion_r</string>
+         </void>
+         <void method="add">
+          <string>hip_adduction_r</string>
+         </void>
+         <void method="add">
+          <string>hip_rotation_r</string>
+         </void>
+         <void method="add">
+          <string>knee_angle_r</string>
+         </void>
+         <void method="add">
+          <string>ankle_angle_r</string>
+         </void>
+         <void method="add">
+          <string>subtalar_angle_r</string>
+         </void>
+         <void method="add">
+          <string>mtp_angle_r</string>
+         </void>
+         <void method="add">
+          <string>hip_flexion_l</string>
+         </void>
+         <void method="add">
+          <string>hip_adduction_l</string>
+         </void>
+         <void method="add">
+          <string>hip_rotation_l</string>
+         </void>
+         <void method="add">
+          <string>knee_angle_l</string>
+         </void>
+         <void method="add">
+          <string>ankle_angle_l</string>
+         </void>
+         <void method="add">
+          <string>subtalar_angle_l</string>
+         </void>
+         <void method="add">
+          <string>mtp_angle_l</string>
+         </void>
+         <void method="add">
+          <string>lumbar_extension</string>
+         </void>
+         <void method="add">
+          <string>lumbar_bending</string>
+         </void>
+         <void method="add">
+          <string>lumbar_rotation</string>
+         </void>
+         <void method="add">
+          <string>arm_flex_r</string>
+         </void>
+         <void method="add">
+          <string>arm_add_r</string>
+         </void>
+         <void method="add">
+          <string>arm_rot_r</string>
+         </void>
+         <void method="add">
+          <string>elbow_flex_r</string>
+         </void>
+         <void method="add">
+          <string>pro_sup_r</string>
+         </void>
+         <void method="add">
+          <string>wrist_flex_r</string>
+         </void>
+         <void method="add">
+          <string>wrist_dev_r</string>
+         </void>
+         <void method="add">
+          <string>arm_flex_l</string>
+         </void>
+         <void method="add">
+          <string>arm_add_l</string>
+         </void>
+         <void method="add">
+          <string>arm_rot_l</string>
+         </void>
+         <void method="add">
+          <string>elbow_flex_l</string>
+         </void>
+         <void method="add">
+          <string>pro_sup_l</string>
+         </void>
+         <void method="add">
+          <string>wrist_flex_l</string>
+         </void>
+         <void method="add">
+          <string>wrist_dev_l</string>
+         </void>
+        </void>
+        <void property="coordinateValues">
+         <void method="add">
+          <double>-2.09275079</double>
+         </void>
+         <void method="add">
+          <double>0.026492931292668963</double>
+         </void>
+         <void method="add">
+          <double>-0.009281385723682804</double>
+         </void>
+         <void method="add">
+          <double>-0.03991057141438974</double>
+         </void>
+         <void method="add">
+          <double>0.28352985</double>
+         </void>
+         <void method="add">
+          <double>0.99944084</double>
+         </void>
+         <void method="add">
+          <double>0.02687778</double>
+         </void>
+         <void method="add">
+          <double>-0.14994913190836887</double>
+         </void>
+         <void method="add">
+          <double>0.05083568972711072</double>
+         </void>
+         <void method="add">
+          <double>0.04174117169404997</double>
+         </void>
+         <void method="add">
+          <double>-0.09020020399268627</double>
+         </void>
+         <void method="add">
+          <double>0.3643922873103228</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.428627495056465</double>
+         </void>
+         <void method="add">
+          <double>-0.09881465211075931</double>
+         </void>
+         <void method="add">
+          <double>-0.230710681176469</double>
+         </void>
+         <void method="add">
+          <double>-0.3596597471074604</double>
+         </void>
+         <void method="add">
+          <double>0.2229010759349899</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>-0.13528217673049017</double>
+         </void>
+         <void method="add">
+          <double>-0.03222485645000125</double>
+         </void>
+         <void method="add">
+          <double>0.13623521848093065</double>
+         </void>
+         <void method="add">
+          <double>0.25181886785754654</double>
+         </void>
+         <void method="add">
+          <double>-0.19825833920989452</double>
+         </void>
+         <void method="add">
+          <double>-0.040465308434639934</double>
+         </void>
+         <void method="add">
+          <double>0.9077866174789374</double>
+         </void>
+         <void method="add">
+          <double>2.1995811241423877</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>-0.21677789298885516</double>
+         </void>
+         <void method="add">
+          <double>-0.21717654678489584</double>
+         </void>
+         <void method="add">
+          <double>-0.6920631384541371</double>
+         </void>
+         <void method="add">
+          <double>0.3531084619484149</double>
+         </void>
+         <void method="add">
+          <double>2.5658062824057275</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+        </void>
+        <void property="poseName">
+         <string>3DGaitModel2392-scaled</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="org.opensim.view.ModelPose">
+        <void property="poseName">
+         <string>ExperimentalData_0</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="org.opensim.view.ModelPose" id="ModelPose1">
+        <void property="coordinateNames">
+         <void method="add">
+          <string>treadmill_tx</string>
+         </void>
+         <void method="add">
+          <string>pelvis_tilt</string>
+         </void>
+         <void method="add">
+          <string>pelvis_list</string>
+         </void>
+         <void method="add">
+          <string>pelvis_rotation</string>
+         </void>
+         <void method="add">
+          <string>pelvis_tx</string>
+         </void>
+         <void method="add">
+          <string>pelvis_ty</string>
+         </void>
+         <void method="add">
+          <string>pelvis_tz</string>
+         </void>
+         <void method="add">
+          <string>hip_flexion_r</string>
+         </void>
+         <void method="add">
+          <string>hip_adduction_r</string>
+         </void>
+         <void method="add">
+          <string>hip_rotation_r</string>
+         </void>
+         <void method="add">
+          <string>knee_angle_r</string>
+         </void>
+         <void method="add">
+          <string>ankle_angle_r</string>
+         </void>
+         <void method="add">
+          <string>subtalar_angle_r</string>
+         </void>
+         <void method="add">
+          <string>mtp_angle_r</string>
+         </void>
+         <void method="add">
+          <string>hip_flexion_l</string>
+         </void>
+         <void method="add">
+          <string>hip_adduction_l</string>
+         </void>
+         <void method="add">
+          <string>hip_rotation_l</string>
+         </void>
+         <void method="add">
+          <string>knee_angle_l</string>
+         </void>
+         <void method="add">
+          <string>ankle_angle_l</string>
+         </void>
+         <void method="add">
+          <string>subtalar_angle_l</string>
+         </void>
+         <void method="add">
+          <string>mtp_angle_l</string>
+         </void>
+         <void method="add">
+          <string>lumbar_extension</string>
+         </void>
+         <void method="add">
+          <string>lumbar_bending</string>
+         </void>
+         <void method="add">
+          <string>lumbar_rotation</string>
+         </void>
+         <void method="add">
+          <string>arm_flex_r</string>
+         </void>
+         <void method="add">
+          <string>arm_add_r</string>
+         </void>
+         <void method="add">
+          <string>arm_rot_r</string>
+         </void>
+         <void method="add">
+          <string>elbow_flex_r</string>
+         </void>
+         <void method="add">
+          <string>pro_sup_r</string>
+         </void>
+         <void method="add">
+          <string>wrist_flex_r</string>
+         </void>
+         <void method="add">
+          <string>wrist_dev_r</string>
+         </void>
+         <void method="add">
+          <string>arm_flex_l</string>
+         </void>
+         <void method="add">
+          <string>arm_add_l</string>
+         </void>
+         <void method="add">
+          <string>arm_rot_l</string>
+         </void>
+         <void method="add">
+          <string>elbow_flex_l</string>
+         </void>
+         <void method="add">
+          <string>pro_sup_l</string>
+         </void>
+         <void method="add">
+          <string>wrist_flex_l</string>
+         </void>
+         <void method="add">
+          <string>wrist_dev_l</string>
+         </void>
+        </void>
+        <void property="coordinateValues">
+         <void method="add">
+          <double>-3.56215111</double>
+         </void>
+         <void method="add">
+          <double>0.004487329820537572</double>
+         </void>
+         <void method="add">
+          <double>0.040505418544311715</double>
+         </void>
+         <void method="add">
+          <double>-0.09154834343081648</double>
+         </void>
+         <void method="add">
+          <double>0.29657686</double>
+         </void>
+         <void method="add">
+          <double>0.97509586</double>
+         </void>
+         <void method="add">
+          <double>0.0261729</double>
+         </void>
+         <void method="add">
+          <double>-0.2851049560512597</double>
+         </void>
+         <void method="add">
+          <double>-0.052101933429815464</double>
+         </void>
+         <void method="add">
+          <double>0.05929778229519064</double>
+         </void>
+         <void method="add">
+          <double>-0.24782455602611844</double>
+         </void>
+         <void method="add">
+          <double>0.40413100383271733</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.44938704401640917</double>
+         </void>
+         <void method="add">
+          <double>-0.047582686075114976</double>
+         </void>
+         <void method="add">
+          <double>-0.24714027124400728</double>
+         </void>
+         <void method="add">
+          <double>-0.32923752971530496</double>
+         </void>
+         <void method="add">
+          <double>0.14139824030407305</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>-0.08318730088857097</double>
+         </void>
+         <void method="add">
+          <double>-0.10399860287509409</double>
+         </void>
+         <void method="add">
+          <double>0.1441092661653153</double>
+         </void>
+         <void method="add">
+          <double>0.2198818301638332</double>
+         </void>
+         <void method="add">
+          <double>-0.1660882293752052</double>
+         </void>
+         <void method="add">
+          <double>0.06732640890450255</double>
+         </void>
+         <void method="add">
+          <double>0.8136442421444959</double>
+         </void>
+         <void method="add">
+          <double>2.3274776106249013</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>-0.18011715815200052</double>
+         </void>
+         <void method="add">
+          <double>-0.21358909266965742</double>
+         </void>
+         <void method="add">
+          <double>-0.5829680498957768</double>
+         </void>
+         <void method="add">
+          <double>0.40097779618748847</double>
+         </void>
+         <void method="add">
+          <double>2.57079633</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+         <void method="add">
+          <double>0.0</double>
+         </void>
+        </void>
+        <void property="poseName">
+         <string>3DGaitModel2392-scaled</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="org.opensim.view.ModelPose">
+        <void property="poseName">
+         <string>ExperimentalData_1</string>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="org.opensim.view.ModelPose">
+        <void property="poseName">
+         <string>ExperimentalData_2</string>
+        </void>
+       </object>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

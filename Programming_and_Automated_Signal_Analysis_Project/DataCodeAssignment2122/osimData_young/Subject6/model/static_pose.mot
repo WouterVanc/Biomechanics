@@ -1,0 +1,8 @@
+static pose
+version=1
+nRows=1
+nColumns=38
+inDegrees=yes
+endheader
+time	pelvis_tilt	pelvis_list	pelvis_rotation	pelvis_tx	pelvis_ty	pelvis_tz	hip_flexion_r	hip_adduction_r	hip_rotation_r	knee_angle_r	ankle_angle_r	subtalar_angle_r	mtp_angle_r	hip_flexion_l	hip_adduction_l	hip_rotation_l	knee_angle_l	ankle_angle_l	subtalar_angle_l	mtp_angle_l	lumbar_extension	lumbar_bending	lumbar_rotation	arm_flex_r	arm_add_r	arm_rot_r	elbow_flex_r	pro_sup_r	wrist_flex_r	wrist_dev_r	arm_flex_l	arm_add_l	arm_rot_l	elbow_flex_l	pro_sup_l	wrist_flex_l	wrist_dev_l
+      0.00000000	      5.89477281	     -2.05149699	      1.06435752	      0.09282005	      0.90022790	      0.06071142	    -13.47295511	      2.14763842	      2.86998650	      3.53873592	      8.67155439	      0.00000000	      0.00000000	     -9.47914252	     -2.99662633	     -2.11005125	     -5.14947804	     13.57795506	      0.00000000	      0.00000000	     -7.62975995	      2.61704511	     -0.86558633	     -0.04287875	     -4.71007734	    -19.91646978	     17.20186971	    114.77080300	      0.00000000	      0.00000000	     -0.76498159	     -7.18908480	     -6.13970069	     17.76183392	    115.96943533	      0.00000000	      0.00000000
